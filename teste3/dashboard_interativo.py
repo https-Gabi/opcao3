@@ -25,7 +25,7 @@ def categorize_age(age):
 df["Faixa Etária"] = df["Idade"].apply(categorize_age)
 
 # título do dashboard
-st.title("Dashboard Interativo: Comportamento de Uso de Dispositivos")
+st.title("Comportamento de Uso de Dispositivos")
 
 # filtros 
 st.sidebar.header("Filtros")
@@ -150,3 +150,4 @@ ax.set_title("Drenagem de Bateria vs. Uso de Dados")
 ax.set_xlabel("Uso de Dados (MB/dia)")
 ax.set_ylabel("Drenagem de Bateria (mAh/dia)")
 st.pyplot(fig)
+
